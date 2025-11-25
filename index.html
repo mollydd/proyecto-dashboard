@@ -1,84 +1,92 @@
 <!DOCTYPE html>
-<head>
-</head>
-<body>
-
-<!--SIDEBAR -->
-<aside class="sidebar">
-    <div class="logo">
-        <img src="assets/img/logo.jpg" alt="Logo del proyecto" class="logo-img"/>
-    </div>
-
-    <ul class="menu">
-        <li><a href="#">Inicio</a></li>
-        <li><a href="#">Cursos</a></li>
-        <li><a href="#">Notas</a></li>  
-        <li><a href="#">Perfil</a></li> 
-    </ul>
-</aside>
-
-<!-- CONTENEDOR PRINCIPAL DEL DASHBOARD-->
-<div class="main-container">
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Dashboard - Proyecto Unidad 3</title>
+  </head>
+  <body>
+    <!--SIDEBAR -->
+    <aside>
+      <div class="logo">
+        <img
+          src="assets/img/logo.jpg"
+          alt="Logo del proyecto"
+          class="logo-img"
+        />
+      </div>
+      <nav>
+        <ul class="menu">
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Cursos</a></li>
+          <li><a href="#">Notas</a></li>
+          <li><a href="#">Perfil</a></li>
+        </ul>
+      </nav>
+    </aside>
 
     <!--HEADER-->
     <header class="header">
-       <h1>Portal de Gestion Academica</h1> 
-       <img src="https://randomuser.me/api/portraits/women/44.jpg" class="user-img"/>
+      <h1>Portal de Gestion Academica</h1>
+      <img
+        src="https://randomuser.me/api/portraits/women/44.jpg"
+        class="user-img"
+      />
     </header>
 
-
-    <!--CONTENIDO PRINCIPAL-->
+    <!-- CONTENEDOR PRINCIPAL DEL DASHBOARD-->
     <main class="dashboard">
-
-        <!-- TARJETAS DE INFORMACION -->
-
+      <!--CONTENIDO PRINCIPAL DE LA SECCIÓN-->
+      <h2>Bienvenida Rosa Pérez</h2>
+      <!-- TARJETAS DE INFORMACION -->
+      <section>
         <!-- Cursos -->
-        <div class="card"></div>
-            <h2>Cursos</h2>
-            <ul>
-                <li>Desarrollo Web <span>4.1</span></li>
-                <li>Calculo Diferencial <span>3.7</span></li>
-                <li>Inteligencia Artificial <span>2.9</span></li>
-                <li>Inteligencia de negocios <span>4.5</span></li>
-            </ul>
-        </div>
+        <article class="card">
+          <h2>Cursos</h2>
+          <ul>
+            <li>Desarrollo Web <span>4.1</span></li>
+            <li>Calculo Diferencial <span>3.7</span></li>
+            <li>Inteligencia Artificial <span>2.9</span></li>
+            <li>Inteligencia de negocios <span>4.5</span></li>
+          </ul>
+        </article>
 
         <!-- Estado Académico -->
-        <div class="card">
-            <h2>Estado Académico</h2>
-            <p>APROBADO</p>
-        </div>
+        <article class="card">
+          <h2>Estado Académico</h2>
+          <p>APROBADO</p>
+        </article>
 
         <!-- Próximas Entregas -->
-        <div class="card">
-            <h2>Próximas Entregas</h2>
-            <ul>
-                <li>Proyecto Final - 25 de Abril</li>
-                <li>Práctica 3 - 30 de Abril</li>
-                <li>Ensayo - 5 de Mayo</li>
-            </ul>
-        </div>
+        <article class="card">
+          <h2>Próximas Entregas</h2>
+          <ul>
+            <li>Proyecto Final - 25 de Abril</li>
+            <li>Práctica 3 - 30 de Abril</li>
+            <li>Ensayo - 5 de Mayo</li>
+          </ul>
+        </article>
 
         <!-- Perfil -->
-        <div class="card">
-            <h2>Perfil</h2>
-            <ul>
-                <li>Nombre: Rosa Pérez</li>
-                <li>Correo: rperez@cuc.edu.co</li>
-                <li>Créditos aprobados: 45%</li>
-                <li>Nivel de inglés: Intermedio</li>
-            </ul>
-        </div>
-
+        <article class="card">
+          <h2>Perfil</h2>
+          <ul>
+            <li>Nombre: Rosa Pérez</li>
+            <li>Correo: rperez@cuc.edu.co</li>
+            <li>Créditos aprobados: 45%</li>
+            <li>Nivel de inglés: Intermedio</li>
+          </ul>
+        </article>
+      </section>
     </main>
- 
+
     <!-- FOOTER -->
     <footer class="footer">
-        © 2025 — Proyecto Dashboard Institucional.  
-        Desarrollado por el Equipo de Ingeniería de Sistemas:
-        Isaac Mendoza, Gabriel Navarro, Aixa Martinez, y Paula Machacon.
+      © 2025 — Proyecto Dashboard Institucional. Desarrollado por el Equipo de
+      Ingeniería de Sistemas: Isaac Mendoza, Gabriel Navarro, Aixa Martinez, y
+      Paula Machacon.
     </footer>
-
-</div>
-
-</body>
+  </body>
+</html>
